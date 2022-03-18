@@ -1,2 +1,2 @@
 # fanflicks
-fan flicks website made in react 
+fan flicks is a web app made in react that contains a few components.
