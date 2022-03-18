@@ -1,0 +1,77 @@
+{
+  "name": "fan-flicks",
+  "description": "Fan film website",
+  "author": "Jalome",
+  "version": "1.0.9",
+  "license": "MIT",
+  "main": "dist/ReactCardSlider.js",
+  "module": "dist/ReactCardSlider.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pwill0217/fanflicks"
+  },
+  "keywords": [
+    "react card slider",
+    "react",
+    "fan film",
+    "film",
+    "movie",
+    "react slider",
+    "react image slider",
+    "jalome"
+  ],
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "bootstrap": "^5.1.3",
+    "core-js": "^3.18.2",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.2.1",
+    "react-card-slider-component": "^1.0.9",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "react-router-dom": "^6.2.2",
+    "react-scripts": "4.0.3",
+    "styled-components": "^5.3.3",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "rm -rf dist && NODE_ENV=production babel src/components --out-dir dist --copy-files",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "gh-pages": "^3.2.3"
+  }
+}
